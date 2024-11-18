@@ -1,0 +1,17 @@
+---
+import HeaderButton from "./HeaderButton.astro";
+---
+
+<header class="border-b border-neutral-800 text-white py-3 flex justify-center items-center">
+    <div class="flex flex-row justify-between items-center xl:w-9/12 w-full px-4 text-xl">
+        <div class="font-bold">
+            Logo
+        </div>
+        <ul class="xl:inline-flex hidden gap-16">
+            <HeaderButton href="/">Home</HeaderButton>
+            <HeaderButton href="/about">About</HeaderButton>
+            <HeaderButton href="/blog">Blog</HeaderButton>
+        </ul>
+        <button class="py-1 px-3 bg-blue-950 font-bold rounded">Contact</button>
+    </div>
+</header>
